@@ -7,5 +7,3 @@ Future Work:
 - Decrease the virus file size
 
 Disclaimer: This code is for educational purposes only and was actually for a course project. The code itself cannot be harmful for any system but I am not responsible for any actions taken using this code.
-
-Written By: Seyed Ali Akhavani
